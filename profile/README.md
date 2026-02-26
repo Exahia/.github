@@ -20,8 +20,8 @@ Exahia déploie des **modèles open-source** (Mistral, Llama, Qwen, DeepSeek) su
 
 | Composant | Technologie |
 |-----------|-------------|
-| **Inférence** | vLLM (API compatible OpenAI) |
-| **Hébergement** | OVHcloud bare-metal (France) |
+| **Modèles** | Sélection des meilleurs LLM open-source via benchmark continu |
+| **Hébergement** | Serveurs GPU OVHcloud bare-metal (France) |
 | **GPUs** | Nvidia L4, L40S, H100 |
 | **Sécurité PII** | Presidio + spaCy (détection PII français, <2ms) |
 | **Interface** | Open WebUI (ChatGPT-like) |
