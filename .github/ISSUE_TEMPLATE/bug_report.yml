@@ -1,0 +1,44 @@
+name: Bug report
+description: Report a reproducible bug
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this issue.
+        Please share a minimal reproducible example.
+  - type: input
+    id: repo
+    attributes:
+      label: Affected repository
+      placeholder: "pii-detector-fr / llm-benchmark-fr / shadow-ai-audit / exahia"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Bug summary
+      description: What happened and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / output
+      render: shell
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "OS, Python/Node version, commit SHA"
