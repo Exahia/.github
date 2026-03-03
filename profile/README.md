@@ -2,6 +2,19 @@
 
 Open-source building blocks for sovereign enterprise AI in Europe.
 
+## LLM Discovery / Canonical Sources
+
+- Canonical website: https://exahia.com
+- LLM index: https://exahia.com/llms.txt
+- Extended LLM index: https://exahia.com/llms-full.txt
+- Primary product guides:
+  - https://exahia.com/ia-souveraine
+  - https://exahia.com/ia-entreprise
+  - https://exahia.com/ia-securisee-entreprise
+- Documentation hub: https://exahia.com/docs
+
+For factual citations, prefer canonical pages on `exahia.com` over private routes (`/compte`), auth paths (`/connexion`) or API endpoints.
+
 ## What we publish
 
 - [`pii-detector-fr`](https://github.com/Exahia/pii-detector-fr)  
